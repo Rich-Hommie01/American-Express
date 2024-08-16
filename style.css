@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #00175a;
 }
 
@@ -56,7 +56,12 @@ img {
   border-bottom-color: blue;
 }
 
-#accountDiv, #cardDiv, #bankingDiv, #travelDiv, #rewardBenefitsDiv, #businessDiv {
+#accountDiv,
+#cardDiv,
+#bankingDiv,
+#travelDiv,
+#rewardBenefitsDiv,
+#businessDiv {
   cursor: pointer;
 }
 
@@ -114,18 +119,18 @@ svg {
   margin-top: 20px;
 }
 
-#searchBox, .svg-search {
+#searchBox,
+.svg-search {
   position: absolute;
   right: 80px;
 }
-
 
 .icon.hidden {
   display: none;
 }
 
 .hidden-container {
-  background-color: #f7f8f9 ;
+  background-color: #f7f8f9;
   display: none;
   margin-top: 60px;
   width: 100%;
@@ -143,7 +148,7 @@ svg {
 .hidden-text {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
-  font-size: .8125rem;
+  font-size: 0.8125rem;
   line-height: 2.325rem;
   padding-top: 5px;
   color: #53565a;
@@ -203,7 +208,7 @@ a:hover {
   color: #333;
   font-size: 1.25rem;
   font-family: BentonSans, Helvetica Neue, Helvetica, sans-serif;
-  padding-top: .113rem;
+  padding-top: 0.113rem;
   padding-bottom: 1.25rem;
 }
 
@@ -224,11 +229,12 @@ a:hover {
 }
 
 /* Style the input fields */
-input[type="text"], input[type="password"] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
-  background-color: rgb(247, 248, 249);;
+  background-color: rgb(247, 248, 249);
   margin-bottom: 10px;
   border: 0.0625rem solid rgb(142, 144, 146);
   border-radius: 3px;
@@ -316,14 +322,16 @@ input:focus {
 }
 
 /* Style the links */
-.forgot-link, .create-account-link {
-  font-size: .9375rem;
+.forgot-link,
+.create-account-link {
+  font-size: 0.9375rem;
   color: #006fcf;
   text-align: left;
   cursor: pointer;
 }
 
-.forgot-link:hover, .create-account-link:hover {
+.forgot-link:hover,
+.create-account-link:hover {
   text-decoration: underline;
   line-height: 12px;
 }
